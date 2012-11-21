@@ -1,0 +1,19 @@
+# This is a sample plugin.yml
+# For more infomration refer to http://wiki.bukkit.org/Plugin_YAML
+# This file uses maven resource filtering to fill in values at compile time
+main: de.danielclasen.ChestShopAverage.Main
+name: ChestShop Average
+version: 0.2
+author: Daniel Clasen
+description: Gives average price of item from chestshop database
+
+softdepend: [ChestShop]
+
+commands:
+  average:
+    aliases: [avg]
+    description: Lists item id, names and average price from ChestShop Database
+    usage: |
+           /<command> Â§2(what's the item in hand?)
+           /<command> Â§712Â§f Â§2(what's the item with ID Â§712Â§2?)
+           /<command> Â§7logÂ§f Â§2(what's the item ID of Â§7LOGÂ§2?)
