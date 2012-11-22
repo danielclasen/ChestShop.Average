@@ -33,6 +33,7 @@ public final class Main extends JavaPlugin implements Listener {
 	public static File dataFolder = new File("plugins/ChestShopStats");
 
 	
+	
 	public void onEnable(){
 		getLogger().info("onEnable has been invoked!");
 		getServer().getPluginManager().registerEvents(this, this);
