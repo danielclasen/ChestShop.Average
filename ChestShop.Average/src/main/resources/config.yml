@@ -1,0 +1,8 @@
+INTERNAL_DATABASE_INITIALDELAY: 0
+#Initial Delay to wait on Server Start before loaing the Database in seconds
+
+INTERNAL_DATABASE_REFRESH: 60
+#Delay between Database Refreshes in seconds
+
+INTERNAL_DATABASE_CALCULATE_FOR_SECONDS: 14400
+#How many seconds may the last buy/sell data be old to be valid for calculation in seconds

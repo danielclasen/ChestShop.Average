@@ -1,9 +1,9 @@
 # This is a sample plugin.yml
 # For more infomration refer to http://wiki.bukkit.org/Plugin_YAML
 # This file uses maven resource filtering to fill in values at compile time
-main: de.danielclasen.ChestShopAverage.Main
+main: de.danielclasen.ChestShop.Average.ChestShopAverage
 name: ChestShop Average
-version: 0.2
+version: 1.2-secretcraft-demo
 author: Daniel Clasen
 description: Gives average price of item from chestshop database
 
